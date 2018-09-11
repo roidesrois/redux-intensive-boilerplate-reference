@@ -1,0 +1,13 @@
+export const types = Object.freeze({
+    // Sync
+    INITIALIZE:   'INITIALIZE',
+    AUTHENTICATE: 'AUTHENTICATE',
+    LOGOUT:       'LOGOUT',
+
+    // Async
+    INITIALIZE_ASYNC:   'INITIALIZE_ASYNC',
+    LOGIN_ASYNC:        'LOGIN_ASYNC',
+    AUTHENTICATE_ASYNC: 'AUTHENTICATE_ASYNC',
+    LOGOUT_ASYNC:       'LOGOUT_ASYNC',
+    SIGNUP_ASYNC:       'SIGNUP_ASYNC',
+});
