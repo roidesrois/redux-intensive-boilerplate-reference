@@ -2,7 +2,8 @@
 import React, { Component } from 'react';
 
 // Components
-import { Catcher, Spinner, Nav, Posts, Notification } from '../components';
+import { Catcher, Spinner, Nav, Notification } from '../components';
+import Questionnaire from "../components/Questionnaire";
 
 export default class Feed extends Component {
     render () {
@@ -10,7 +11,7 @@ export default class Feed extends Component {
             <Catcher>
                 <Spinner />
                 <Nav />
-                <Posts />
+                <Questionnaire />
                 <Notification />
             </Catcher>
         );

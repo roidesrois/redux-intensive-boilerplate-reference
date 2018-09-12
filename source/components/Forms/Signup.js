@@ -26,6 +26,7 @@ const mapDispatch = {
     mapDispatch
 )
 export default class SignupForm extends Component {
+
     _submitSignupForm = (user) => {
         this.props.signupAsync(user);
     };
@@ -102,38 +103,36 @@ export default class SignupForm extends Component {
                                         type = 'password'
                                     />
 
-
-
                                     {/*<Field*/}
-                                        {/*className = { inviteStyle }*/}
-                                        {/*disabled = { isFetching }*/}
-                                        {/*name = 'invite'*/}
-                                        {/*placeholder = 'Номер удостоверения личности'*/}
-                                        {/*type = 'text'*/}
+                                    {/*className = { inviteStyle }*/}
+                                    {/*disabled = { isFetching }*/}
+                                    {/*name = 'invite'*/}
+                                    {/*placeholder = 'Номер удостоверения личности'*/}
+                                    {/*type = 'text'*/}
                                     {/*/>*/}
 
                                     {/*<Field*/}
-                                        {/*className = { inviteStyle }*/}
-                                        {/*disabled = { isFetching }*/}
-                                        {/*name = 'invite'*/}
-                                        {/*placeholder = 'ПИН-код'*/}
-                                        {/*type = 'text'*/}
+                                    {/*className = { inviteStyle }*/}
+                                    {/*disabled = { isFetching }*/}
+                                    {/*name = 'invite'*/}
+                                    {/*placeholder = 'ПИН-код'*/}
+                                    {/*type = 'text'*/}
                                     {/*/>*/}
 
                                     {/*<Field*/}
-                                        {/*className = { emailStyle }*/}
-                                        {/*disabled = { isFetching }*/}
-                                        {/*name = 'email'*/}
-                                        {/*placeholder = 'Адрес электронной почты'*/}
-                                        {/*type = 'email'*/}
+                                    {/*className = { emailStyle }*/}
+                                    {/*disabled = { isFetching }*/}
+                                    {/*name = 'email'*/}
+                                    {/*placeholder = 'Адрес электронной почты'*/}
+                                    {/*type = 'email'*/}
                                     {/*/>*/}
 
                                     {/*<Field*/}
-                                        {/*className = { emailStyle }*/}
-                                        {/*disabled = { isFetching }*/}
-                                        {/*name = 'email'*/}
-                                        {/*placeholder = 'Потверждение адреса электронной почты'*/}
-                                        {/*type = 'email'*/}
+                                    {/*className = { emailStyle }*/}
+                                    {/*disabled = { isFetching }*/}
+                                    {/*name = 'email'*/}
+                                    {/*placeholder = 'Потверждение адреса электронной почты'*/}
+                                    {/*type = 'email'*/}
                                     {/*/>*/}
                                     <button className = { buttonStyle } disabled = { isFetching } type = 'submit'>
                                         {buttonMessage}

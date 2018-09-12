@@ -35,7 +35,7 @@ export default class Nav extends Component {
                         {profile.get('firstName')}
                     </NavLink>
                     <NavLink activeClassName = { Styles.active } to = { book.feed }>
-                        Стена
+                        Анкетирование
                     </NavLink>
                 </div>
                 <button onClick = { this._logout }>Выйти</button>
@@ -47,7 +47,7 @@ export default class Nav extends Component {
                         Войти
                     </NavLink>
                     <NavLink activeClassName = { Styles.active } to = { book.signup }>
-                        Создать аккаунт
+                        Регистрация
                     </NavLink>
                 </div>
                 <button className = { Styles.hidden }>Выйти</button>
