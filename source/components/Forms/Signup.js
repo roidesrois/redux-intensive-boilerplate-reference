@@ -88,36 +88,36 @@ export default class SignupForm extends Component {
                                         placeholder = 'Почта'
                                         type = 'email'
                                     />
-                                    <Field
-                                        className = { passwordStyle }
-                                        disabled = { isFetching }
-                                        name = 'password'
-                                        placeholder = 'Пароль'
-                                        type = 'password'
-                                    />
-                                    <Field
-                                        className = { inviteStyle }
-                                        disabled = { isFetching }
-                                        name = 'invite'
-                                        placeholder = 'Секретное слово'
-                                        type = 'password'
-                                    />
-
                                     {/*<Field*/}
-                                    {/*className = { inviteStyle }*/}
-                                    {/*disabled = { isFetching }*/}
-                                    {/*name = 'invite'*/}
-                                    {/*placeholder = 'Номер удостоверения личности'*/}
-                                    {/*type = 'text'*/}
+                                        {/*className = { passwordStyle }*/}
+                                        {/*disabled = { isFetching }*/}
+                                        {/*name = 'password'*/}
+                                        {/*placeholder = 'Пароль'*/}
+                                        {/*type = 'password'*/}
+                                    {/*/>*/}
+                                    {/*<Field*/}
+                                        {/*className = { inviteStyle }*/}
+                                        {/*disabled = { isFetching }*/}
+                                        {/*name = 'invite'*/}
+                                        {/*placeholder = 'Секретное слово'*/}
+                                        {/*type = 'password'*/}
                                     {/*/>*/}
 
-                                    {/*<Field*/}
-                                    {/*className = { inviteStyle }*/}
-                                    {/*disabled = { isFetching }*/}
-                                    {/*name = 'invite'*/}
-                                    {/*placeholder = 'ПИН-код'*/}
-                                    {/*type = 'text'*/}
-                                    {/*/>*/}
+                                    <Field
+                                    className = { inviteStyle }
+                                    disabled = { isFetching }
+                                    name = 'serialNumber'
+                                    placeholder = 'Номер удостоверения личности'
+                                    type = 'text'
+                                    />
+
+                                    <Field
+                                    className = { inviteStyle }
+                                    disabled = { isFetching }
+                                    name = 'pinCode'
+                                    placeholder = 'ПИН-код'
+                                    type = 'password'
+                                    />
 
                                     {/*<Field*/}
                                     {/*className = { emailStyle }*/}

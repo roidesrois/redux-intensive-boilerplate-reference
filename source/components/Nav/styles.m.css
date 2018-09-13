@@ -8,7 +8,7 @@
     justify-content: space-between;
     height: 42px;
     border-bottom: var(--paletteColor12);
-    background-color: var(--paletteColor6);
+    background-color: var(--paletteColor5);
     padding: 0 5px;
     z-index: 1;
 
@@ -36,13 +36,13 @@
         cursor: pointer;
         border-radius: 7px;
         border: 1px solid;
-        border-color: color-mod(var(--paletteColor6) lightness(65%));
+        border-color: color-mod(var(--paletteColor5) lightness(65%));
         transition: background-color 0.3s ease, border-color;
         outline: 0;
 
         &:hover {
             background-color: var(--rgbaColor2);
-            border-color: color-mod(var(--paletteColor6) lightness(55%));
+            border-color: color-mod(var(--paletteColor5) lightness(55%));
         }
 
         & img {
